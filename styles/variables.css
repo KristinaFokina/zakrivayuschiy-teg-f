@@ -1,1 +1,10 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --main-font-family: 'Inter', sans-serif;
+    --accent-font-family: 'PressStart2P', monospace;
+    --font-weight-card-text: 400;
+    --font-weight-card-title: 700;
+
+    --main-background-image-mobile: url('../images/background-light-mobile.png');
+    --main-background-image: url('../images/background-light.png');
+    --main-background-color: rgba(255, 255, 255, 1);
+}
