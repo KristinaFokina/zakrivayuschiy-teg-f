@@ -7,25 +7,38 @@
 :root.theme-light {
     --font-weight-card-text: 400;
     --font-weight-card-title: 700;
-    --main-background-image-mobile: url('../images/background-light-mobile.png');
-    --main-background-image: url('../images/background-light.png');
-    --main-background-color: rgba(255, 255, 255, 1);
+    --background-color-line: #d3d3d3;
+    --background-gradiend-color-one: #e7e7e7 0.01%;
+    --background-gradiend-color-two: #1a1a1a;
+    --background-color-text: #fff;
+    --main-color-text: #000;
+    --main-color-text-with-oposity: rgba(0, 0, 0, 0.6);
+    --color-text-button: #fff;
+    --color-heart-contour: var(--main-color);
 }
 
 :root.theme-dark {
     --font-weight-card-text: 465;
     --font-weight-card-title: 785;
-    --main-background-image: url('../images/background-dark-mobile.png');
-    --main-background-image: url('../images/background-dark.png');
-    --main-background-color: rgba(0, 0, 0, 1);
+    --background-color-line: #000;
+    --background-gradiend-color-one: #007f0c;
+    --background-gradiend-color-two: #004306;
+    --background-color-text: #000;
+    --main-color-text: rgba(0, 204, 20, 1);
+    --color-text-button: var(--main-color-text);
+    --main-color-text-with-oposity: rgba(0, 204, 20, 0.6);
 }
 
 @media (prefers-color-scheme:dark) {
     :root {
         --font-weight-card-text: 465;
         --font-weight-card-title: 785;
-        --main-background-image: url('../images/background-dark-mobile.png');
-        --main-background-image: url('../images/background-dark.png');
-        --main-background-color: rgba(0, 0, 0, 1);
+        --background-color-line: #000;
+        --background-gradiend-color-one: #007f0c;
+        --background-gradiend-color-two: #004306;
+        --background-color-text: #000;
+        --main-color-text: rgba(0, 204, 20, 1);
+        --color-text-button: var(--main-color-text);
+        --main-color-text-with-oposity: rgba(0, 204, 20, 0.6);
     }
 }
