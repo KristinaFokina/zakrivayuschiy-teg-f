@@ -7,9 +7,11 @@
 :root.theme-light {
     --font-weight-card-text: 400;
     --font-weight-card-title: 700;
-    --background-color-line: #d3d3d3;
-    --background-gradiend-color-one: #e7e7e7 0.01%;
-    --background-gradiend-color-two: #1a1a1a;
+    --main-background-image:
+        repeating-linear-gradient(90deg, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px),
+        repeating-linear-gradient(180deg, #d3d3d3, rgb(0 0 0 / 0) 2px 4px),
+        linear-gradient(180deg, #e7e7e7 0.01%, #1a1a1a 100%);
+
     --background-color-text: #fff;
     --main-color-text: #000;
     --main-color-text-with-oposity: rgba(0, 0, 0, 0.6);
@@ -20,9 +22,10 @@
 :root.theme-dark {
     --font-weight-card-text: 465;
     --font-weight-card-title: 785;
-    --background-color-line: #000;
-    --background-gradiend-color-one: #007f0c;
-    --background-gradiend-color-two: #004306;
+    --main-background-image:
+        repeating-linear-gradient(90deg, #000 0 2px, rgb(0 0 0 / 0) 2px 4px),
+        repeating-linear-gradient(180deg, #000, rgb(0 0 0 / 0) 2px 4px),
+        linear-gradient(180deg, #007f0c, #004306 100%);
     --background-color-text: #000;
     --main-color-text: rgba(0, 204, 20, 1);
     --color-text-button: var(--main-color-text);
