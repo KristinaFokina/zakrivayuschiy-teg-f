@@ -36,9 +36,10 @@
     :root {
         --font-weight-card-text: 465;
         --font-weight-card-title: 785;
-        --background-color-line: #000;
-        --background-gradiend-color-one: #007f0c;
-        --background-gradiend-color-two: #004306;
+        --main-background-image:
+            repeating-linear-gradient(90deg, #000 0 2px, rgb(0 0 0 / 0) 2px 4px),
+            repeating-linear-gradient(180deg, #000, rgb(0 0 0 / 0) 2px 4px),
+            linear-gradient(180deg, #007f0c, #004306 100%);
         --background-color-text: #000;
         --main-color-text: rgba(0, 204, 20, 1);
         --color-text-button: var(--main-color-text);
